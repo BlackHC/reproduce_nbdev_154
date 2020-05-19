@@ -2,12 +2,12 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"A": "00_core.ipynb",
-         "B": "00_core.ipynb",
-         "DEFAULT_EXPORT_WORKS": "01_different_module.ipynb"}
+index = {"DEFAULT_EXPORT_WORKS": "01_different_module.ipynb",
+         "A": "02_core.ipynb",
+         "B": "02_core.ipynb"}
 
-modules = ["core.py",
-           "different_module.py"]
+modules = ["different_module.py",
+           "core.py"]
 
 doc_url = "https://fastai.github.io/nbdev_template/"
 
